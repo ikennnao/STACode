@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3CBA59FB-3E90-4061-BAB7-558D08169584}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>STA.TouristCareCRM.Workflows</RootNamespace>
+    <AssemblyName>STA.TouristCareCRM.Workflows</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>STA.TouristCareCRM.Workflow.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.9\lib\net462\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.9\lib\net462\Microsoft.Xrm.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.Workflow.9.0.2.9\lib\net462\Microsoft.Xrm.Sdk.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Plugins\Helpers\CommonStrings.cs">
+      <Link>Helpers\CommonStrings.cs</Link>
+    </Compile>
+    <Compile Include="..\Plugins\Resources\CRMEntityAttributeNames.cs">
+      <Link>Resources\CRMEntityAttributeNames.cs</Link>
+    </Compile>
+    <Compile Include="..\Plugins\Resources\Enums.cs">
+      <Link>Resources\Enums.cs</Link>
+    </Compile>
+    <Compile Include="Classes\Case Assignment History\UpdateCaseAssignmentHistory.cs" />
+    <Compile Include="Classes\Case\TriggerEmailsToCustomer.cs" />
+    <Compile Include="Classes\Case\TriggerSMSesToCustomer.cs" />
+    <Compile Include="Classes\Case\UpdateCasesInfoInTargetCustomer.cs" />
+    <Compile Include="Classes\Conversation\CheckConversationWorkflow.cs" />
+    <Compile Include="Classes\Email\ConversationEmailResponseWorkflow.cs" />
+    <Compile Include="Classes\Email\SendEmailWorkflow.cs" />
+    <Compile Include="Classes\Generic\UpdateLanguageLocale.cs" />
+    <Compile Include="Classes\Generic\ShareRecords.cs" />
+    <Compile Include="Classes\Generic\UpdateRecordURL_VisitorCareApp.cs" />
+    <Compile Include="Classes\PostedSurveys\PostedSurveyWorkflow.cs" />
+    <Compile Include="Classes\SMS Activity\SendSMStoWrapperAPI.cs" />
+    <Compile Include="Classes\Survey Scheduler\SurveySchedulerWorkflow.cs" />
+    <Compile Include="Helpers\CommonWorkFlowExtensions.cs" />
+    <Compile Include="Helpers\CommonMethods.cs" />
+    <Compile Include="Presenters\ConversationEmailResponsePresenter.cs" />
+    <Compile Include="Presenters\SendEmailPresenter.cs" />
+    <Compile Include="Presenters\SurveySchedulerPresenter.cs" />
+    <Compile Include="Presenters\EmailNotificationsPresenter.cs" />
+    <Compile Include="Presenters\CheckConversationPresenter.cs" />
+    <Compile Include="Presenters\GenerateRecordAppUrlPresenter.cs" />
+    <Compile Include="Presenters\SendSMSPresenter.cs" />
+    <Compile Include="Presenters\SMSNotificationsPresenter.cs" />
+    <Compile Include="Presenters\UpdateCustomerInfo.cs" />
+    <Compile Include="Presenters\PostedSurveyPresenter.cs" />
+    <Compile Include="Presenters\UpdateReleaseInfoOnCAH.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\CRMFetchXMLs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="STA.TouristCareCRM.Workflow.snk" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

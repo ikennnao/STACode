@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Resources", "Web Resources\Web Resources.csproj", "{19C6E2AD-D092-49C6-82A4-9B9B1D9BF7E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STA.TouristCareCRM.Plugins", "Plugins\STA.TouristCareCRM.Plugins.csproj", "{0FB3A52A-9010-4298-8167-91CE42389DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC.WrapperService", "TC.WrapperService\TC.WrapperService.csproj", "{A8A236E3-5957-4A94-A057-C8580CD8AD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STA.TouristCareCRM.Workflows", "Workflows\STA.TouristCareCRM.Workflows.csproj", "{3CBA59FB-3E90-4061-BAB7-558D08169584}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "STA.DataMigrations", "DataMigration\STA.DataMigrations\STA.DataMigrations.dtproj", "{3B357A32-18F6-4088-AC02-C5DDC739188F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{052FED82-42B5-4457-A8A6-841E0BE2AEC0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C6E2AD-D092-49C6-82A4-9B9B1D9BF7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C6E2AD-D092-49C6-82A4-9B9B1D9BF7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C6E2AD-D092-49C6-82A4-9B9B1D9BF7E8}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C6E2AD-D092-49C6-82A4-9B9B1D9BF7E8}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{19C6E2AD-D092-49C6-82A4-9B9B1D9BF7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C6E2AD-D092-49C6-82A4-9B9B1D9BF7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB3A52A-9010-4298-8167-91CE42389DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB3A52A-9010-4298-8167-91CE42389DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB3A52A-9010-4298-8167-91CE42389DF5}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB3A52A-9010-4298-8167-91CE42389DF5}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{0FB3A52A-9010-4298-8167-91CE42389DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB3A52A-9010-4298-8167-91CE42389DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A236E3-5957-4A94-A057-C8580CD8AD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A236E3-5957-4A94-A057-C8580CD8AD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A236E3-5957-4A94-A057-C8580CD8AD01}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A236E3-5957-4A94-A057-C8580CD8AD01}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{A8A236E3-5957-4A94-A057-C8580CD8AD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A236E3-5957-4A94-A057-C8580CD8AD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBA59FB-3E90-4061-BAB7-558D08169584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBA59FB-3E90-4061-BAB7-558D08169584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBA59FB-3E90-4061-BAB7-558D08169584}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBA59FB-3E90-4061-BAB7-558D08169584}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{3CBA59FB-3E90-4061-BAB7-558D08169584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBA59FB-3E90-4061-BAB7-558D08169584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B357A32-18F6-4088-AC02-C5DDC739188F}.Debug|Any CPU.ActiveCfg = Development
+		{3B357A32-18F6-4088-AC02-C5DDC739188F}.Debug|Any CPU.Build.0 = Development
+		{3B357A32-18F6-4088-AC02-C5DDC739188F}.Development|Any CPU.ActiveCfg = Development
+		{3B357A32-18F6-4088-AC02-C5DDC739188F}.Development|Any CPU.Build.0 = Development
+		{3B357A32-18F6-4088-AC02-C5DDC739188F}.Release|Any CPU.ActiveCfg = Development
+		{3B357A32-18F6-4088-AC02-C5DDC739188F}.Release|Any CPU.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F2C4EFD-D91D-4386-943D-CCE5354483C0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/digitalservicesme
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Plugins\\STA.TouristCareCRM.Plugins.csproj
+		SccProjectName1 = Plugins
+		SccLocalPath1 = Plugins
+		SccProjectUniqueName2 = Web\u0020Resources\\Web\u0020Resources.csproj
+		SccProjectName2 = Web\u0020Resources
+		SccLocalPath2 = Web\u0020Resources
+		SccProjectUniqueName3 = TC.WrapperService\\TC.WrapperService.csproj
+		SccProjectName3 = TC.WrapperService
+		SccLocalPath3 = TC.WrapperService
+		SccProjectUniqueName4 = Workflows\\STA.TouristCareCRM.Workflows.csproj
+		SccProjectName4 = Workflows
+		SccLocalPath4 = Workflows
+		SccProjectUniqueName5 = DataMigration\\STA.DataMigrations\\STA.DataMigrations.dtproj
+		SccProjectName5 = DataMigration/STA.DataMigrations
+		SccLocalPath5 = DataMigration\\STA.DataMigrations
+	EndGlobalSection
+EndGlobal

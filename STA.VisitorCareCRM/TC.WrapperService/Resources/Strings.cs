@@ -1,0 +1,3 @@
+﻿namespace TC.WrapperService.Resources
+{
+}

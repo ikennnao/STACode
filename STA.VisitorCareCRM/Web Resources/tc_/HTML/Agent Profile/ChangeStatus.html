@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Change Agent Availability</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link href="../../CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../CSS/style.default.css" rel="stylesheet" />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="../../CSS/custom.css">
+    <!-- JavaScript files-->
+    <script src="../../../ClientGlobalContext.js.aspx" type="text/javascript"></script>
+    <script src="../../JScripts/jquery.min.js" type="text/javascript"></script>
+    <script src="../../JScripts/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="../../JScripts/CommonFunctions.js" type="text/javascript"></script>
+    <script src="../../JScripts/bootstrap.bundle.min.js"></script>
+    <script src="../../JScripts/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- Main File-->
+    <script src="../../JScripts/AgentProfile/AgentAvailability.js"></script>
+</head>
+<body>
+    <div class="page login-page" data-toggle="modal" data-target="#myModal">
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="3000" data-animation="true" style="position: absolute; top: 0; right: 40%; text-align:center">
+
+            <div class="toast-body">
+            </div>
+        </div>
+        <div class="notification container-fluid" style="display:none;" id="mainmsg">
+            <!--You need to have an Agent profile to Change your Availability. Please Contact your System Administrator.-->
+        </div>
+        <div class="container" style="display: none;">
+            <div class="form-outer text-center d-flex align-items-center">
+                <div class="form-inner">
+                    <div class="logo text-uppercase text-primary">
+                        <span id="avalbitlystatus" class="text-primary" style="font-family: 'SegoeUI-Light', 'Segoe UI Semilight', 'Segoe UI Regular', 'Segoe UI'">
+                            <!--Change Availability Status-->
+                        </span><!-- <strong class="text-primary">Oparaugo</strong> -->
+                    </div>
+                    <p></p>
+                    <form class="text-left form-validate">
+                        <div class="form-group-material">
+                            <label for="agent-availability" class="label-material mb-2" id="agent">
+                                <!--Agent Availability-->
+                            </label>
+                            <select name="account" class="form-control" id="availability">
+                                <option value="1" id="online">
+                                    <!--online-->
+                                </option>
+                                <option value="2" id="offline">
+                                    <!--offline-->
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="button" value="" class="mr-3 btn btn-primary" id="savechanges">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var currUserLcid = Xrm.Page.context.getUserLcid();
+            if (currUserLcid == 1025) {
+                //mainmsg
+                $("#mainmsg").text("يجب أن يكون لديك ملف تعريف وكيل لتغيير التوفر الخاص بك. من فضلك تواصل مع مسؤول نظامك.");
+                $("#avalbitlystatus").text("تغيير حالة التواجد");
+                $("#agent").text("توافر الوكيل");
+                $("#online").text("متاح");
+                $("#offline").text("غير متاح");
+                $("#savechanges").attr('value', 'تغير حالة التواجد');
+                $("#savechanges").text("تغير حالة التواجد");
+                $(".form-group-material").css("text-align", "right");
+                $("select.form-control").css("direction", "rtl");
+            }
+            else {
+                $("#mainmsg").text("You need to have an Agent profile to Change your Availability. Please Contact your System Administrator.");
+                $("#avalbitlystatus").text(" Change Availability Status");
+                $("#agent").text("Agent Availability");
+                $("#online").text("online");
+                $("#offline").text("offline");
+                $("#savechanges").attr('value', 'Change Status');
+            }
+        });
+    </script>
+</body>
+</html>
