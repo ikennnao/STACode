@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\CaseApproval\PopulateRqtTypeInRgrdngCase.cs" />
+    <Compile Include="Classes\CaseApproval\RestrictModClosure.cs" />
     <Compile Include="Classes\Case\CaseProcessConfigAndSLAConfig.cs" />
     <Compile Include="Classes\Case\PopulateCaseInfo.cs" />
     <Compile Include="Classes\Conversation\PopulateConversationInfo.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Presenters\PopulateConversationInfoPresenter.cs" />
     <Compile Include="Presenters\PopulateKAInfoPresenter.cs" />
     <Compile Include="Presenters\PopulateRequestTypePresenter.cs" />
+    <Compile Include="Presenters\RestrictModClosurePresenter.cs" />
     <Compile Include="Resources\CRMEntityAttributeNames.cs" />
     <Compile Include="Resources\CRMFetchXML%27s.cs" />
     <Compile Include="Resources\Enums.cs" />

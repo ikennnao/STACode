@@ -12,6 +12,7 @@ namespace STA.TouristCareCRM.Workflows.Presenters
     public class EmailNotificationsPresenter
     {
         private CommonMethods commonMethods = new CommonMethods();
+        private const string SurveyURLPlaceholder = "Case_Record_GUID";
 
         public void CreateAndSendEmailsFromTemplates(CommonWorkFlowExtensions cmWorkFlowObject, EmailNotificationInputParams objNotificationParams)
         {
@@ -129,11 +130,11 @@ namespace STA.TouristCareCRM.Workflows.Presenters
 
                     emailObjProperities.strTemplateName = commonMethods.GetAttributeValFromTargetEntity(entNotificationConfigDetails, strTemplateAttrName);
 
-                    bool boolSendFrom = commonMethods.GetAttributeValFromTargetEntity(entNotificationConfigDetails, NotificationConfigEntityAttributeNames.SendFrom) != null ? commonMethods.GetAttributeValFromTargetEntity(entNotificationConfigDetails, NotificationConfigEntityAttributeNames.SendFrom) : null;
+                    bool ?boolSendFrom = commonMethods.GetAttributeValFromTargetEntity(entNotificationConfigDetails, NotificationConfigEntityAttributeNames.SendFrom) != null ? commonMethods.GetAttributeValFromTargetEntity(entNotificationConfigDetails, NotificationConfigEntityAttributeNames.SendFrom) : null;
 
                     if (boolSendFrom != null)
                     {
-                        if (boolSendFrom)
+                        if (boolSendFrom == true)
                         {
                             // Send From --> 'Team'
                             emailObjProperities.entrefOwner = commonMethods.GetAttributeValFromTargetEntity(entNotificationConfigDetails, NotificationConfigEntityAttributeNames.FromTeam);
@@ -194,7 +195,7 @@ namespace STA.TouristCareCRM.Workflows.Presenters
 
         private void CreateAndSendEmail(CommonWorkFlowExtensions cmWorkFlowObject, EmailObjInputParams emailObjInputParams)
         {
-            bool checkMandatAttrs = true;
+            bool checkMandatAttrs = true; string newEmailBody = string.Empty;
 
             if (emailObjInputParams != null)
             {
@@ -220,6 +221,8 @@ namespace STA.TouristCareCRM.Workflows.Presenters
 
                         strEmailSubject = commonMethods.GetAttributeValFromTargetEntity(entEmailTemplate, "subject");
                         strEmailBody = commonMethods.GetAttributeValFromTargetEntity(entEmailTemplate, "description");
+                        newEmailBody = strEmailBody.Contains(SurveyURLPlaceholder) ? strEmailBody.Replace(SurveyURLPlaceholder, emailObjInputParams.entrefRegarding.Id.ToString()) : strEmailBody;
+                    
                     }
                 }
 
@@ -291,9 +294,9 @@ namespace STA.TouristCareCRM.Workflows.Presenters
                 {
                     checkMandatAttrs = false;
                 }
-                if (!string.IsNullOrWhiteSpace(strEmailBody))
+                if (!string.IsNullOrWhiteSpace(newEmailBody))
                 {
-                    entCreateEmail.Attributes[EmailEntityAttributeNames.Description] = strEmailBody;
+                    entCreateEmail.Attributes[EmailEntityAttributeNames.Description] = newEmailBody;
                 }
                 else
                 {

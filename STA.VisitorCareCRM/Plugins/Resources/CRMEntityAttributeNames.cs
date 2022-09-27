@@ -121,6 +121,7 @@
         public const string EntityLogicalName = "tc_caseapproval";
         public const string CaseApprovalId = "tc_caseapprovalid";
         public const string RequestType = "tc_requesttype";
+        public const string RelatedCase = "tc_relatedcase";
         public const string RegardingObject = "regardingobjectid";
         public const string CreatedOn = "createdon";
         public const string CreatedBy = "createdby";

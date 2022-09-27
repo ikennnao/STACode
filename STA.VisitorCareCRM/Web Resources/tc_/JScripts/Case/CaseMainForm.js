@@ -6,6 +6,7 @@ var disableBPFComplaintFields = "header_process_tc_issubmitted, header_process_t
 var fieldsRelatedToOS = "header_process_tc_isreportedtomanagement, header_process_tc_ismanagementrecommendedaction, header_process_tc_recommendedactions, tc_isreportedtomanagement, tc_ismanagementrecommendedaction, tc_recommendedactions";
 var IsPriorityCare = false, IsCustomerAnonymous = false, previousCaseTypeName = null;
 
+
 function form_OnLoad(executionContext) {
     formExecuteContext = executionContext;
     SetAttrRequiredLevel(executionContext, "description", "required");
@@ -18,7 +19,10 @@ function form_OnLoad(executionContext) {
     });
     //hideShowAdminTabAndSections();    
     ChangeLookupLanguages(executionContext);
+
 }
+
+
 
 function loadSetCustomerInfo(executionContext, onChangeCheck) {
     var objCustomerVal = GetAttributeValue(executionContext, "customerid");
@@ -187,7 +191,7 @@ function loadSetCustomerInfo(executionContext, onChangeCheck) {
                                     AttrFireOnChange(executionContext, "tc_contactnumber");
                                 }
 
-                                qryselectCustCatgry = "tc_customercategories?$select=tc_customercategoryid,tc_name&$filter=tc_categoryid eq '2'";
+                                qryselectCustCatgry = "tc_customercategories?$select=tc_customercategoryid,tc_name&$filter=tc_categoryid eq '2'or tc_categoryid eq '3'";
                                 SetAttrsDisability(executionContext, "tc_customername, emailaddress, tc_contactnumber", ", ", true);
                                 SetSectionVisibility(executionContext, "tab_custsummary", "sec_custdetails_2", true);
                                 break;
@@ -255,6 +259,84 @@ function caseType_OnChange(executionContext, onChangeCheck) {
     hideShowCaseInfo_CType(executionContext);
     caseCategory_OnChange(executionContext, onChangeCheck);
     hideShow_Sections_BPFActiveStage();
+    // var caseTypeId = GetLookupValId(executionContext, "tc_casetype");
+    // if(caseTypeId!=null){
+    // ExecuteFilterAllCities(executionContext,caseTypeId);
+    // }
+}
+
+function ExecuteFilterAllCities(executionContext, caseTypeId) {
+
+    if (caseTypeId != null) {
+        //check if we need to exclude all cities options
+        var qryExcludeAllCities = "tc_casetypes(" + caseTypeId + ")?$select=tc_filterallcities";
+        var qryResultExcludeAllCities = RetrieveMultipleRecords(qryExcludeAllCities, false, null);
+        var ctrlCity = GetControl(executionContext, "tc_city");
+        if (qryResultExcludeAllCities != null && qryResultExcludeAllCities != undefined) {
+            var isExcludeAllCities = qryResultExcludeAllCities.tc_filterallcities;
+                
+            if (isExcludeAllCities) {
+                //add preseach filter to cities
+                ctrlCity.addPreSearch(excludeAllCityFilter);
+            }
+
+
+        }
+    }
+    else { return; }
+}
+
+
+function ExecuteFilterInternationalCities(executionContext, casesubcategoryId) {
+    var ctrlCity = GetControl(executionContext, "tc_city");
+    if (casesubcategoryId != null) {
+        //check if we need to exclude all cities options
+        var qryExcludeInternationalCities = "tc_casesubcategories(" + casesubcategoryId + ")?$select=tc_filterinternationalcity";
+        var qryResultExcludeInternationalCities = RetrieveMultipleRecords(qryExcludeInternationalCities, false, null);
+        if (qryResultExcludeInternationalCities != null && qryResultExcludeInternationalCities != undefined) {
+            var isExcludeInternationalCities = qryResultExcludeInternationalCities.tc_filterinternationalcity;
+               
+            if (isExcludeInternationalCities) {
+                //add preseach filter to cities
+                ctrlCity.addPreSearch(excludeInternationalCityFilter);
+            }
+
+
+        }
+    }
+    else { return; }
+}
+
+
+
+/***************
+// using the City Code ALLCTY to filter out the All city 
+// Instead of the city name as the name field can be modified. Also this will help 
+//apply a uniqueID rather than using the name
+***************/
+function excludeAllCityFilter() {
+    //create a filter xml
+    var customFilter = "<filter type='and'>" +
+        "<condition attribute='tc_citycode' operator='ne' value='ALLCTY' />" +
+        "</filter>";
+    //add filter
+    formExecuteContext.getFormContext().getControl("tc_city").addCustomFilter(customFilter, "cc_city");
+}
+
+
+/***************
+// using the City Code INTCTY to filter out the International city 
+// Instead of the city name as the name field can be modified. Also this will help 
+//apply a uniqueID rather than using the name
+***************/
+function excludeInternationalCityFilter() {
+    //create a filter xml
+    var customFilter = "<filter type='and'>" +
+        "<condition attribute='tc_citycode' operator='ne' value='INTCTY' />" +
+        "<condition attribute='tc_citycode' operator='ne' value='ALLCTY' />" +
+        "</filter>";
+    //add filter
+    formExecuteContext.getFormContext().getControl("tc_city").addCustomFilter(customFilter, "cc_city");
 }
 
 function caseCategory_OnChange(executionContext, onChangeCheck) {
@@ -324,6 +406,8 @@ function caseSubCategory_OnChange(executionContext, onChangeCheck) {
             SetAttrRequiredLevel(executionContext, "tc_serviceprovider", "none");
             SetAttrRequiredLevel(executionContext, "tc_touristattraction", "none");
         }
+
+        ExecuteFilterInternationalCities(executionContext, objSubCategoryId)
     }
 }
 
@@ -506,7 +590,7 @@ function hideShowCaseInfo_COrigin(executionContext) {
         ClearAttrCtrlNotification(executionContext, "tc_channelorigin");
     }
     else {
-        
+
     }
 }
 
@@ -945,6 +1029,9 @@ function checkForCaseFunctionalities(roleCheckParam) {
             break;
         case "SupMng":
             configParamVal = GetConfigParameterValue(roleCheckForSupervisorAndManager, false, null);
+            break;
+        case "SysAdmSysCus":
+            configParamVal = GetConfigParameterValue(roleCheckForSystemAdminSytemCustomizer, false, null);
             break;
     }
 
