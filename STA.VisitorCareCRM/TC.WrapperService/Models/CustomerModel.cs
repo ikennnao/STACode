@@ -37,6 +37,11 @@ namespace TC.WrapperService.Models
         public CustomEntityReference CustomerCategory { get; set; }
         public List<CustomEntityReference> InternationalMarkets { get; set; }
         public CustomEntityReference CompanyName { get; set; }
+        public string SSID { get; set; }
+        public int[] SSIDInterest { get; set; }
+        public string TravelPartner { get; set; }
+        public int Gender { get; set; }
+        public string Birthday { get; set; }
     }
 
     public class RetrieveCustomerRequest
@@ -80,6 +85,8 @@ namespace TC.WrapperService.Models
         public Guid CustomerGuid { get; set; }
         public string SSID { get; set; }
         public string TravelPartner { get; set; }
+        public CustomOptionsetValue Gender { get; set; }
+        public DateTime Birthday { get; set; }
         public CustomOptionsetValueCollection SSIDInterest { get; set; }
 
 
@@ -104,6 +111,14 @@ namespace TC.WrapperService.Models
         public string SSID { get; set; }
         public int[] SSIDInterest { get; set; }
         public string TravelPartner { get; set; }
+        public string ChannelOrigin { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string PrimaryEmail { get; set; }
+        public string PrimaryContactNo { get; set; }
+        public int Gender { get; set; }
+        public string Birthday { get; set; }
+        public RqtObjSocialHandleDetails SMHDetails { get; set; }
 
     }
 

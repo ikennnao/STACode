@@ -275,6 +275,8 @@
         public const string SSID = "tc_ssid";
         public const string SSIDInterest = "tc_ssidinterest";
         public const string TravelPartner = "tc_travelpartner";
+        public const string Gender = "gendercode";
+        public const string Birthday = "birthdate";
     }
 
     #endregion

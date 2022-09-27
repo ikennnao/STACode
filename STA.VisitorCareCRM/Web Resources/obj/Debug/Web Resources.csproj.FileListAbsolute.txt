@@ -15,3 +15,20 @@ C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\W
 C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\Web Resources\obj\Debug\Web Resources.csproj.CoreCompileInputs.cache
 C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\Web Resources\obj\Debug\Web Resources.dll
 C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\Web Resources\obj\Debug\Web Resources.pdb
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\Web Resources.dll.config
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\Web Resources.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\Web Resources.pdb
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\roslyn\csc.exe.config
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\roslyn\csc.rsp
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\roslyn\csi.exe.config
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\roslyn\csi.rsp
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\roslyn\vbc.exe.config
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\roslyn\vbc.rsp
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\obj\Debug\Web Resources.csproj.AssemblyReference.cache
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\obj\Debug\Web Resources.csproj.CoreCompileInputs.cache
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\obj\Debug\Web Resources.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Web Resources\obj\Debug\Web Resources.pdb

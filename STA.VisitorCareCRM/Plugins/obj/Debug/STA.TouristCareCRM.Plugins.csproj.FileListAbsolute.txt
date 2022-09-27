@@ -1,0 +1,9 @@
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Plugins\bin\Debug\STA.TouristCareCRM.Plugins.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Plugins\bin\Debug\STA.TouristCareCRM.Plugins.pdb
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Plugins\obj\Debug\STA.TouristCareCRM.Plugins.csproj.AssemblyReference.cache
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Plugins\obj\Debug\STA.TouristCareCRM.Plugins.csproj.CoreCompileInputs.cache
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Plugins\obj\Debug\STA.TouristCareCRM.Plugins.csproj.CopyComplete
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Plugins\obj\Debug\STA.TouristCareCRM.Plugins.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Plugins\obj\Debug\STA.TouristCareCRM.Plugins.pdb

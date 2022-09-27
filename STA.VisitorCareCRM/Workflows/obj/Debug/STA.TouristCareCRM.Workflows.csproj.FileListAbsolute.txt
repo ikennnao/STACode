@@ -1,0 +1,13 @@
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\bin\Debug\STA.TouristCareCRM.Workflows.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\bin\Debug\STA.TouristCareCRM.Workflows.pdb
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\obj\Debug\STA.TouristCareCRM.Workflows.csproj.AssemblyReference.cache
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\obj\Debug\STA.TouristCareCRM.Workflows.csproj.CoreCompileInputs.cache
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\obj\Debug\STA.TouristCareCRM.Workflows.csproj.CopyComplete
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\obj\Debug\STA.TouristCareCRM.Workflows.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\Workflows\obj\Debug\STA.TouristCareCRM.Workflows.pdb

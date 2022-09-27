@@ -3,6 +3,7 @@ using Microsoft.Xrm.Sdk.Query;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Globalization;
 using System.Net.Http.Headers;
 using System.Web.Http;
 using TC.WrapperService.Interfaces;
@@ -344,6 +345,20 @@ namespace TC.WrapperService.Controllers
                         entCreateCustomer.Attributes[ContactEntityAttributesNames.LastName] = customerDetails.LastName;
                         entCreateCustomer.Attributes[ContactEntityAttributesNames.PrimaryContactNo] = customerDetails.PrimaryContactNo;
                         entCreateCustomer.Attributes[ContactEntityAttributesNames.PrimaryEmail] = customerDetails.PrimaryEmail;
+                        entCreateCustomer.Attributes[ContactEntityAttributesNames.SSID] = customerDetails.SSID;
+                        entCreateCustomer.Attributes[ContactEntityAttributesNames.TravelPartner] = customerDetails.TravelPartner;
+                        OptionSetValueCollection SSIDInterests = new OptionSetValueCollection();
+                        foreach(var item in customerDetails.SSIDInterest)
+                        {
+                            SSIDInterests.Add(new OptionSetValue(item));
+                        }
+                        entCreateCustomer.Attributes[ContactEntityAttributesNames.SSIDInterest] = SSIDInterests;
+                        entCreateCustomer.Attributes[ContactEntityAttributesNames.Gender] = new OptionSetValue(customerDetails.Gender);
+                        DateTime birthday;
+                        if (DateTime.TryParseExact(customerDetails.Birthday, new string[] { "MM/dd/yyyy" }, CultureInfo.InvariantCulture, DateTimeStyles.None, out birthday))
+                            entCreateCustomer.Attributes[ContactEntityAttributesNames.Birthday] = DateTime.Parse(customerDetails.Birthday);
+                        else
+                            strExceptionMsg += customErrorMsgsForCustomer.BirthdayFormat;
                         if (customerDetails.BusinessType != int.MinValue)
                         {
                             entCreateCustomer.Attributes[ContactEntityAttributesNames.BusinessType] = new OptionSetValue(customerDetails.BusinessType);
@@ -669,6 +684,8 @@ namespace TC.WrapperService.Controllers
                         rspCustomerObj.SSID = crmCMs.GetAttributeValFromTargetEntity(entCustomer, ContactEntityAttributesNames.SSID);
                         rspCustomerObj.SSIDInterest = apiCMs.SetCustomFormatOptionsetValueCollection(entCustomer, ContactEntityAttributesNames.SSIDInterest);
                         rspCustomerObj.TravelPartner = crmCMs.GetAttributeValFromTargetEntity(entCustomer, ContactEntityAttributesNames.TravelPartner);
+                        rspCustomerObj.Gender = apiCMs.SetCustomFormatOptionsetValue(entCustomer, ContactEntityAttributesNames.Gender);
+                        rspCustomerObj.Birthday = crmCMs.GetAttributeValFromTargetEntity(entCustomer, ContactEntityAttributesNames.Birthday);
                         rspRetrieveCustomer.lstCustomerRecords.Add(rspCustomerObj);
                     }
 
@@ -772,7 +789,7 @@ namespace TC.WrapperService.Controllers
             try
             {
                 Entity entUpdateCustomer = null;
-
+                var entRequiredChannelOrigin = crmCMs.RetrieveChannelOriginFromOriginCode(crmAdapter.CRMAdminService(), updateCustomerDetails.ChannelOrigin);
                 if (updateCustomerDetails != null)
                 {
                     entUpdateCustomer = new Entity(ContactEntityAttributesNames.EntityLogicalName);
@@ -809,7 +826,43 @@ namespace TC.WrapperService.Controllers
                     {
                         entUpdateCustomer.Attributes[ContactEntityAttributesNames.TravelPartner] = updateCustomerDetails.TravelPartner;
                     }
+                    if (!string.IsNullOrWhiteSpace(updateCustomerDetails.FirstName))
+                        entUpdateCustomer.Attributes[ContactEntityAttributesNames.FirstName] = updateCustomerDetails.FirstName;
 
+                    if (!string.IsNullOrWhiteSpace(updateCustomerDetails.LastName))
+                        entUpdateCustomer.Attributes[ContactEntityAttributesNames.LastName] = updateCustomerDetails.LastName;
+
+                    if (!string.IsNullOrWhiteSpace(updateCustomerDetails.PrimaryEmail))
+                        entUpdateCustomer.Attributes[ContactEntityAttributesNames.PrimaryEmail] = updateCustomerDetails.PrimaryEmail;
+
+                    if (!string.IsNullOrWhiteSpace(updateCustomerDetails.PrimaryContactNo))
+                        entUpdateCustomer.Attributes[ContactEntityAttributesNames.PrimaryContactNo] = updateCustomerDetails.PrimaryContactNo;
+
+                    if (updateCustomerDetails.Gender != int.MinValue)
+                        entUpdateCustomer.Attributes[ContactEntityAttributesNames.Gender] = new OptionSetValue(updateCustomerDetails.Gender);
+
+                    if (!string.IsNullOrWhiteSpace(updateCustomerDetails.Birthday))
+                    {
+                        DateTime birthday;
+                        if(DateTime.TryParseExact(updateCustomerDetails.Birthday,new string [] { "MM/dd/yyyy" }, CultureInfo.InvariantCulture, DateTimeStyles.None,out birthday))
+                             entUpdateCustomer.Attributes[ContactEntityAttributesNames.Birthday] = DateTime.Parse(updateCustomerDetails.Birthday);
+                        else
+                            strExceptionMsg += customErrorMsgsForCustomer.BirthdayFormat;
+                    }
+
+                    if (updateCustomerDetails.SMHDetails != null)
+                    {
+                        Entity entSocialHandle = crmCMs.RetrieveSMCFromNetworkId(crmAdapter.CRMAdminService(), updateCustomerDetails.SMHDetails);
+
+                        if (entSocialHandle == null || entSocialHandle.Id == Guid.Empty)
+                        {
+                            entSocialHandle = crmCMs.CreateSMCFromNetworkId(crmAdapter.ImpersonatedCRMService(guidLoggedInUser), updateCustomerDetails.SMHDetails, entRequiredChannelOrigin.ToEntityReference(), entUpdateCustomer.ToEntityReference());
+                        }
+                        else
+                        {
+                            crmCMs.UpdateSMCFromNetworkId(crmAdapter.ImpersonatedCRMService(guidLoggedInUser), entSocialHandle, entUpdateCustomer.ToEntityReference());
+                        }
+                    }
                     if (string.IsNullOrWhiteSpace(strExceptionMsg))
                     {
                         //update customer
