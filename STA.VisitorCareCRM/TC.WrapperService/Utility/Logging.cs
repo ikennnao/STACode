@@ -124,6 +124,7 @@ namespace TC.WrapperService.Utility
             public string missingCustomerCountry = "'Country of Residence' parameter in Request Body is Null (or) Empty" + Environment.NewLine;
             public string missingCompanyName = "'Company Name' parameter in Request Body is Null (or) Empty" + Environment.NewLine;
             public string missingCustomerGuid = "'Customer Guid' parameter in Request Body is Null (or) Empty" + Environment.NewLine;
+            public string BirthdayFormat = "'birthday' format not correct please make it in this format 'MM/dd/yyyy' " + Environment.NewLine;
         }
 
 

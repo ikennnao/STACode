@@ -182,6 +182,8 @@ namespace TC.WrapperService.Resources
                     <attribute name='tc_ssid' />
                     <attribute name='tc_ssidinterest' />
                     <attribute name='tc_travelpartner' />
+                    <attribute name='gendercode'/>
+                    <attribute name='birthdate'/>
                     <order attribute='createdon' descending='false' />";
 
             if (!string.IsNullOrWhiteSpace(customerDetails.FirstName) || !string.IsNullOrWhiteSpace(customerDetails.LastName) || !string.IsNullOrWhiteSpace(customerDetails.Email) || !string.IsNullOrWhiteSpace(customerDetails.PhoneNumber) || customerDetails.CustomerGuid != Guid.Empty || !string.IsNullOrWhiteSpace(customerDetails.Status))

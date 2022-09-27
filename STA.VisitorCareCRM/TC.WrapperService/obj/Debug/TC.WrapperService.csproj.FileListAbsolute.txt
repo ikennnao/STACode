@@ -1,113 +1,106 @@
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\obj\Debug\TC.WrapperService.csproj.CoreCompileInputs.cache
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\TC.WrapperService.dll.config
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\TC.WrapperService.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\TC.WrapperService.pdb
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Antlr3.Runtime.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\log4net.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Crm.Sdk.Proxy.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Rest.ClientRuntime.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Deployment.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Xrm.Sdk.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Workflow.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Xrm.Tooling.Connector.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Newtonsoft.Json.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Swashbuckle.Core.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Net.Http.Formatting.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Cors.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Helpers.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Http.Cors.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Http.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Http.Tracing.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Http.WebHost.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Mvc.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Optimization.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Razor.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.WebPages.Deployment.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.WebPages.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.WebPages.Razor.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\WebActivatorEx.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\WebGrease.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\log4net.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Crm.Sdk.Proxy.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Xrm.Sdk.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Deployment.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Workflow.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Microsoft.Xrm.Tooling.Connector.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Http.Cors.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Http.Tracing.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Newtonsoft.Json.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Net.Http.Formatting.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Helpers.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Http.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Http.WebHost.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Mvc.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Optimization.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.Razor.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.WebPages.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.WebPages.Deployment.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\System.Web.WebPages.Razor.xml
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\Antlr3.Runtime.pdb
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\obj\Debug\TC.WrapperService.csproj.CopyComplete
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\obj\Debug\TC.WrapperService.dll
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\obj\Debug\TC.WrapperService.pdb
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\obj\Debug\TC.WrapperService.csproj.AssemblyReference.cache
-C:\Users\hgonugunta001\Documents\PwC TFS\STA\Tourist Care\Code\STA.TouristCare\TC.WrapperService\bin\UnifonicNextGen.Standard.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\TC.WrapperService.dll.config
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\TC.WrapperService.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\TC.WrapperService.pdb
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Antlr3.Runtime.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\log4net.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Crm.Sdk.Proxy.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Rest.ClientRuntime.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Web.Infrastructure.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Deployment.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Workflow.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Tooling.Connector.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Newtonsoft.Json.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Swashbuckle.Core.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Net.Http.Formatting.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Cors.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Helpers.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.Cors.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.Tracing.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.WebHost.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Mvc.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Optimization.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Razor.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.Deployment.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.Razor.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\WebActivatorEx.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\WebGrease.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\log4net.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Crm.Sdk.Proxy.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Deployment.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Workflow.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Tooling.Connector.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.Cors.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.Tracing.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Newtonsoft.Json.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Net.Http.Formatting.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Helpers.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.WebHost.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Mvc.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Optimization.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Razor.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.Deployment.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.Razor.xml
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Antlr3.Runtime.pdb
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\obj\Debug\TC.WrapperService.csprojAssemblyReference.cache
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\obj\Debug\TC.WrapperService.csproj.CoreCompileInputs.cache
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\obj\Debug\TC.WrapperService.csproj.CopyComplete
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\obj\Debug\TC.WrapperService.dll
-C:\STA Commercial TFS\Code\Tourist Care\Code\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\obj\Debug\TC.WrapperService.pdb
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\obj\Debug\TC.WrapperService.csproj.AssemblyReference.cache
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\obj\Debug\TC.WrapperService.csproj.CoreCompileInputs.cache
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\TC.WrapperService.dll.config
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\TC.WrapperService.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\TC.WrapperService.pdb
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Antlr3.Runtime.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\log4net.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Newtonsoft.Json.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Swashbuckle.Core.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Net.Http.Formatting.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Cors.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Helpers.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.Cors.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.Tracing.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.WebHost.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Mvc.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Optimization.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Razor.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.Razor.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\WebActivatorEx.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\WebGrease.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\log4net.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Deployment.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.Xrm.Tooling.Connector.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.Cors.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.Tracing.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Newtonsoft.Json.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Net.Http.Formatting.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Helpers.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Http.WebHost.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Mvc.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Optimization.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.Razor.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\System.Web.WebPages.Razor.xml
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Antlr3.Runtime.pdb
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\obj\Debug\TC.WrapperService.csproj.CopyComplete
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\obj\Debug\TC.WrapperService.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\obj\Debug\TC.WrapperService.pdb
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\csc.exe
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\csc.exe.config
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\csc.rsp
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\csi.exe
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\csi.exe.config
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\csi.rsp
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.AppContext.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Console.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.IO.Compression.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Net.Http.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.ValueTuple.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\vbc.exe
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\vbc.exe.config
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\vbc.rsp
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\VBCSCompiler.exe
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ialbakri001\source\repos\STA-CRM-Web\STA.VisitorCareCRM\TC.WrapperService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
